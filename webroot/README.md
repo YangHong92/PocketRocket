@@ -28,6 +28,10 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ### `stop the app in demon`
 1. install pm2 globally
-npm install pm2 -g
+```
+> npm install pm2 -g
+```
 2. stop the app in demon
-pm2 stop 0
+```
+> pm2 stop 0
+```
