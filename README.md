@@ -3,20 +3,17 @@ PocketRocket Recommender is a movie recommender.
 
 The project consists of three parts: 
 1. the web portal UI, which is developed using [ReactJS](https://reactjs.org/)
-    - Home page
+    - Home page / Collection page
     Display movie collections by genres
-![home page](./weroot/public/home.png)
-
-    - Collection page
-    Display movie collections of a specific genre
+![home page](https://github.com/YangHong92/PocketRocket/raw/master/webroot/public/home.png)
 
     - Movie page
     Display the movie details of given movieId and return similiar movies 
-![movie page](./weroot/public/movie.png)
+![movie page](https://github.com/YangHong92/PocketRocket/raw/master/webroot/public/movie.png)
 
     - User page
     Display the user details of given userId and watched movie history, and based on the behaviour recommend movies 
-![user page](./weroot/public/user.png)
+![user page](https://github.com/YangHong92/PocketRocket/raw/master/webroot/public/user.png)
 
 2. the web portal server, which is built using [NodeJS](https://nodejs.org/en/)
 It serves the dynamic data query from mysql/redis to frontend and communicates with backend recommender model
