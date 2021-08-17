@@ -1,0 +1,14 @@
+main {
+    background-color: #f1f1f1;
+    min-height: 100vh;
+}
+.base-header-logo-main a, .base-header-logo-main a:hover, .frontpage-section-header a, .frontpage-section-header a:hover{
+    color: inherit !important;
+}
+.base-header-logo-main{
+    color: #f06624;
+    font-weight: bold;
+}
+.base-header-logo-main a:link{
+    text-decoration: none;
+}
